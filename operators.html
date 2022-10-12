@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Operator</title>
+</head>
+
+<body>
+    <h1>JS Operator</h1>
+    <p>
+        Arithemtics Operator: +,-,*,/,% (Modulus အကြွင်း) 5/2=2.5 5%2=>1 Logical Operator : &gt; , &lt; , == , != , && , ||
+    </p>
+    <script>
+        //  let first_number = 8; //assigned
+        //  let second_number = 3; //initialized or hard code
+        let first_number = parseInt(prompt("Enter First Number"));
+        let second_number = parseInt(prompt("Enter Second Number"));
+        let sum = first_number + second_number;
+        console.log("First Number :", first_number);
+        console.log("Second Number :", second_number);
+        console.log("Sum is :", sum);
+        //substraction operator -
+        let sub = first_number - second_number;
+        console.log("Sub is :", sub);
+        //multplication operator *
+        let mul = first_number * second_number;
+        console.log("Multiplication is :", mul);
+        //Division operator /
+        let div = first_number / second_number;
+        console.log("Division is :", div.toFixed(2));
+        //Modulus Operator %
+        let mod = first_number % second_number;
+        console.log("Modulus is :", mod);
+    </script>
+</body>
+
+</html>
